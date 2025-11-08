@@ -2,13 +2,13 @@ import pyrebase
 
 firebaseConfig = {
   "apiKey": "AIzaSyCoQaqKal61BHadr-g2Vs2Nppi4fEueOMk",
-  "authDomain": "fir-pucpr-145de.firebaseapp.com",
-  "projectId": "fir-pucpr-145de",
-  "databaseURL": "https://" + "fir-pucpr-145de" + ".firebaseio.com",
-  "storageBucket": "fir-pucpr-145de.firebasestorage.app",
-  "messagingSenderId": "964464187771",
-  "appId": "1:964464187771:web:bee5085c281e8b992fc5de",
-  "measurementId": "G-SKCPNDLLBP"
+  "authDomain": "##########",
+  "projectId": "##########",
+  "databaseURL": "https://" + "##########" + ".firebaseio.com",
+  "storageBucket": "##########.app",
+  "messagingSenderId": "##########",
+  "appId": "##########",
+  "measurementId": "##########"
 }
 
 firebase = pyrebase.initialize_app(firebaseConfig)
@@ -24,4 +24,5 @@ print("Token: ", idToken)
 
 info = auth.get_account_info(idToken)
 print("Info: ",info)
+
 
