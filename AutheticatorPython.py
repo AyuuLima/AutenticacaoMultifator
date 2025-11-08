@@ -1,7 +1,7 @@
 import pyrebase
 
 firebaseConfig = {
-  "apiKey": "AIzaSyCoQaqKal61BHadr-g2Vs2Nppi4fEueOMk",
+  "apiKey": "###############",
   "authDomain": "##########",
   "projectId": "##########",
   "databaseURL": "https://" + "##########" + ".firebaseio.com",
@@ -24,5 +24,6 @@ print("Token: ", idToken)
 
 info = auth.get_account_info(idToken)
 print("Info: ",info)
+
 
 
